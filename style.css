@@ -1,0 +1,201 @@
+html,body {
+    margin: 0;
+}
+
+.intro {
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 55px;
+    text-align: center;
+}
+
+#h1 {
+    font-size: 100px;
+    font-family: 'Tangerine', cursive;
+    margin-bottom: 10px;
+}
+
+#h4 {
+    font-size: 35px;
+    margin-top: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#circle-image {
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+#my-introduction {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#detail-introduction {
+    width: 100%;
+    height: 500px;
+}
+
+#profile {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+#hello {
+    font-size: xx-large;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.child-2 {
+    width: 700px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#image {
+    float: left;
+    margin-right: 20px;
+}
+
+#heading {
+    font-size: 100px;
+}
+
+.skill  {
+    padding: 10px;
+    font-size: xx-large;
+    font-family: 'Barlow', sans-serif;
+}
+
+.Contact-me {
+    text-align: center;
+}
+
+.contact {
+    height: 300px;
+}
+
+#heading-1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#heading-3 {
+    font-size: large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#paragraph {
+    font-size: large;
+    margin-bottom: 40px;
+}
+
+button {
+    width: 170px;
+    height: 42px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: black solid;
+    cursor: pointer;
+}
+
+.contact {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+#media-container {
+    gap: 35px;
+    padding-top: 50px;
+    font-size: large;
+}
+
+#name {
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#media-container > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+
+    html,body {
+        height: max-content;
+    }
+
+    #introduction {
+        background-color: black;
+        width: 100%;
+        height: 300px;
+    }
+
+    #background-image {
+        width: 0;
+        height: 0;
+    }
+
+    .intro {
+        position: static;
+    }
+
+    #image {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #Heading {
+        width: 200px;
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    #description {
+        text-align: center;
+        width: 300px;
+        margin-left: 200px;
+        margin-bottom: 20px;
+    }
+
+    #container {
+        height: 600px;
+    }
+
+    #contact-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+}
