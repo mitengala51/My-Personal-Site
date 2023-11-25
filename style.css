@@ -151,8 +151,8 @@ button {
 
 @media screen and (max-width: 700px) {
 
-    html,body {
-        height: max-content;
+    html,body{
+        overflow: scroll;
     }
 
     #introduction {
@@ -172,20 +172,21 @@ button {
 
     #image {
         float: none;
-        text-align: center;
+        text-align: left;
         margin-top: 20px;
+        margin-right: 0;
     }
 
     #Heading {
         width: 200px;
         text-align: center;
-        margin-left: 30%;
+        margin-left: 50px;
     }
 
     #description {
         text-align: center;
         width: 300px;
-        margin-left: 200px;
+        margin-left: 50px;
         margin-bottom: 20px;
     }
 
@@ -198,6 +199,10 @@ button {
         padding-left: 20px;
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+
+    .child-2 {
+        width: 100%;
     }
 
 }
